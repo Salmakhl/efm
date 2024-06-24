@@ -49,7 +49,7 @@
         $var = $res->execute($va , $vd);
 
         $res2 =$conn->prepare("INSERT INTO Inscription values(null,null,null,?,?)");
-        $var = $res->execute($datev , $nbrp);
+        $var2 = $res2->execute($datev , $nbrp);
 
     }?>
 
